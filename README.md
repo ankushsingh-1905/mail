@@ -4,7 +4,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
-
+import org.testng.annotations.Test;
 
 
 import org.openqa.selenium.By;
@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 
-public class AddingCartItems {
+public class SendMail {
 
 @Test
   public static void Mailone() throws InterruptedException, AWTException, IOException {
