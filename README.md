@@ -28,6 +28,7 @@ public class AddingCartItems {
     WD.get("https://mail.google.com/");
 
     WD.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    
     //Implicit wait for load somwhere i have used threads because explicit wait wasn't working on google site or maybe due to my internet connection
     
 
@@ -40,6 +41,7 @@ public class AddingCartItems {
   
   
    // Login Steps
+   
     WD.findElement(By.id("identifierId")).sendKeys(ID);
 
     WD.findElement(By.className("VfPpkd-RLmnJb")).click();
@@ -55,7 +57,7 @@ public class AddingCartItems {
     Thread.sleep(3000);
     WD.findElement(By.xpath("//div[contains(text(),'Compose')]")).click();
    
-   // To write sento,subject and body
+   // To write sendto,subject and body
     
     Thread.sleep(3000);
     WD.findElement(By.name("to")).sendKeys(TO);
