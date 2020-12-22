@@ -16,7 +16,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AddingCartItems {
 
-  public static void main(String[] args) throws InterruptedException, AWTException, IOException {
+@Test
+  public static void Mailone() throws InterruptedException, AWTException, IOException {
     // TODO Auto-generated method stub
 
     System.setProperty("webdriver.gecko.driver",
